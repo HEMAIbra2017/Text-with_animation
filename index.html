@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>text </title>
+
+	<style type="text/css">
+		body{
+			justify-content: center;align-items: center;
+			margin: 0; padding:0; height: 100vh;
+			background-color: #000;
+			 display: flex;
+		}
+p{
+	
+	position: relative;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px; 
+	overflow: hidden;
+	
+	font-size: 35px;
+	background:linear-gradient(90deg,#000, #fff, #000);
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: animate 3s linear infinite;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color:transparent;
+}
+@keyframes animate{
+	0%{ background-position: -500% }
+
+	100%{background-position: 500%}
+	
+}
+
+
+	</style>
+}
+</head>
+<body>
+
+
+<p>Mohamed is a Front-End Web developer</p>
+</body>
+</html>
